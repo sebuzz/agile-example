@@ -4,7 +4,7 @@ import { argv } from 'process';
 
 //const myFile =  readFile("package.json", ()=>{console.log("done..")});
 
-readFile('foo', 'utf8' , (err, data) => {
+readFile('hello.json', 'utf8' , (err, data) => {
     if (err) {
         console.error(err)
         return
